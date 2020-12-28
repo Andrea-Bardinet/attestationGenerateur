@@ -4,18 +4,18 @@ Générateur d'attestation pour Bordeaux.
 
 ## Disclaimer
 Ce projet n'a pas pour but d'inciter à outre passer le couvre-feu/confinement.
-Il s'agit surtout d'un petit projet en python d’étudiant.
+Il s'agit surtout d'un petit projet en python pour s'entrainer.
 Respectez les règles.
 
 ## Principe de base
 On génère billet de train allant à Bordeaux. Il sert d'attestation valide.
-J'ai modifié ce billet pour supprimer les champs a modifier.
+J'ai modifié ce billet pour supprimer les champs à modifier.
 Le programme se contente simplement d'écrire du texte aux endroits adéquats.
-Ainsi, le qr code ou le code du billet originel restent inchangé.
+Ainsi, le QRcode ou le code du billet originel restent inchangés.
 
 ## Utiliser
 
-Utiliser ce format de commande pour créer votre billet (dans le répertoire créé par git):
+Utilisez ce format de commande pour créer votre billet (dans le répertoire créé par git):
 
 ```bash
 python3 src/generer.py nom prenom jour/mois/année heure:minute nomDuFichier
@@ -41,10 +41,10 @@ Si vous souhaitez modifier le projet voici son organisation:
 * pdf
 	* **model.pdf**: Billet de train vide qui sera modifié
 * src
-	* **generer**: Lis les arguments et appelle les fonctions pour créer le billet.
-	* **data**: Contient toutes les données pour créer le billet. Coordonnées du texte, les couleurs, les font ect..
-	* **setValeur**: Permet de préparer la création des canvas en recueillant les données, en formatant le texte en entré.
-	* **pdfEdit**: Contient toutes les fonctions servant a lire, créer, modifier les PDF.
+	* **generer**: Lit les arguments et appel les fonctions pour créer le billet.
+	* **data**: Contient toutes les données pour créer le billet. Coordonnées du texte, les couleurs, les fonts ect..
+	* **setValeur**: Permet de préparer la création des canvas en recueillant les données et en formatant le texte en entrée.
+	* **pdfEdit**: Contient toutes les fonctions servant à lire, créer, modifier les PDF.
 
 
 
