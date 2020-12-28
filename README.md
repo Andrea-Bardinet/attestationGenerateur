@@ -21,11 +21,11 @@ Utilisez ce format de commande pour créer votre billet (dans le répertoire cr�
 python3 src/generer.py nom prenom jour/mois/année heure:minute nomDuFichier
 ```
 
-**nom**: Votre nom
-**prénom**: Votre prénom
-**jour/mois/année**: La date ou commence l'attestation
-**heure:minute**: L'heure a laquelle commence l’attestation
-**nomFichier**: Nom du fichier en sortie
+**nom**: Votre nom  
+**prénom**: Votre prénom  
+**jour/mois/année**: La date ou commence l'attestation  
+**heure:minute**: L'heure a laquelle commence l’attestation  
+**nomFichier**: Nom du fichier en sortie  
 
 Le fichier créé est ensuite placé dans le répertoire courant (vous pouvez rentrer un chemin a la place du nom)
 
